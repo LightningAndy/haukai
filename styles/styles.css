@@ -20,11 +20,12 @@ body {
 }
 /* Style the topnav links */
 .topnav a {
-    float: center;
+    /*float: left*/
     display: block;
     color: rgb(24, 145, 243);
     text-align: center;
     padding: 14px 16px;
+    margin: auto;
 }
 /* Create two equal columns that float next to each other */
 .column {
