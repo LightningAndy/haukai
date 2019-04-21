@@ -15,13 +15,13 @@ body {
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: black;
+    background-color: slategray;
 }
 /* Style the topnav links */
 .topnav a {
-    float: left;
+    float: center;
     display: block;
-    color: white;
+    color: rgb(24, 145, 243);
     text-align: center;
     padding: 14px 16px;
 }
@@ -41,5 +41,5 @@ body {
 .footer {
     background-color: yellow;
     text-align: center;
-    padding: 10px;
+    padding: 8px;
 }
