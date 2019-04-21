@@ -1,47 +1,53 @@
  /* Universal box sizing */
- *{
-    box-sizing: border-box;
-    }
-/* Set the size of the body */
-body {
-  width: 80%;
-}
-/* Style the header */
-.header {
-    background-color:rgb(64, 194, 64);
-    text-align: center;
-    padding: 20px;
-}
-/* Style the top navigation bar */
-.topnav {
-    
-    background-color: rgb(1, 75, 150);
-    text-align: center;
-}
-/* Style the topnav links */
-.topnav a {
-    float: left;
-    display: block;
-    color: rgb(24, 145, 243);
-    text-align: center;
-    padding: 14px 16px;
 
-}
-/* Create two equal columns that float next to each other */
-.column {
-    float: left;
-    width: auto;
-    padding: 15px;
-    background-color: yellow;
-}
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.footer {
-    background-color: rgb(0, 225, 255);
-    text-align: center;
-    padding: 8px;
-}
+ * {
+     box-sizing: border-box;
+     margin: auto;
+ }
+
+ /* Set the size of the body */
+
+
+
+ body {
+     width: 80%;
+ }
+
+ @media screen and (max-width: 500px) {
+    body {
+        width: 100%;
+    }
+ }
+
+
+
+ /* Style the header */
+
+ .header {
+     background-color: rgb(64, 194, 64);
+     text-align: center;
+     padding: 20px;
+ }
+
+ /* Create two equal columns that float next to each other */
+
+ .column {
+     float: left;
+     width: auto;
+     padding: 15px;
+     background-color: yellow;
+ }
+
+ /* Clear floats after the columns */
+
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ .footer {
+     background-color: rgb(0, 225, 255);
+     text-align: center;
+     padding: 8px;
+ }
