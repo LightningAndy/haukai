@@ -30,7 +30,7 @@ body {
 /* Create two equal columns that float next to each other */
 .column {
     float: left;
-    width: 300px;
+    width: auto;
     padding: 15px;
     background-color: yellow;
 }
