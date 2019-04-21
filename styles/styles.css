@@ -1,5 +1,6 @@
  /* Universal box sizing */
  * {
+    margin: auto;
     box-sizing: border-box;
 }
 /* Set the size of the body */
