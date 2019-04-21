@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 /* Set the size of the body */
-body {
+/*body {
   width: 80%;
-}
+}*/
 /* Style the header */
 .header {
     background-color:green;
