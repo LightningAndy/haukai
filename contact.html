@@ -1,81 +1,157 @@
 <!DOCTYPE html>
-                        
-                            
+
+
 <html>
-                        
-                            
-  <head>
-                        
-                            
-    <meta charset="utf-8">
-                        
-                            
-    <title>The Haukai Restaurant</title>
-                        
-                            
-    <link rel="stylesheet"  type="text/css" href="styles/styles.css">
-    <link rel="stylesheet 2" href="styles/nav-styles.css">                    
-                            
-  </head>
-                        
-                            
-  <body>
-                        
-                            
-    <!-- Here is our main header that is used across all the pages of our website -->
-                        
-                            
-    <header class="header">
-                        
-                            
-      <h1>The Haukai Restaurant</h1>
-                        
-                            
-    </header>
-                        
-                            
-    <!-- Here is our navigation menu used across most pages of our website -->
-                        
-                            
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="hours.html">Open Times</a>
-        <a href="reservation.html">Reservations</a>
-        <a href="menu.html">View Menus</a>
-        <a class="active" href="contact.html">Contact Us</a>
+
+
+<head>
+
+
+  <meta charset="utf-8">
+
+
+  <title>The Haukai Restaurant</title>
+
+
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet 2" href="styles/nav-styles.css">
+  <style>
+ 
+
+    .contact-table {
+      
+      background-color: rgb(211, 211, 211);
+      padding: 0;
+      border-spacing: 0;
+      width: 100%;
+      
+      
+    }
     
-      </nav>
-                        
-                            
-    <!-- Here is our page's main content -->
-                        
-                            
-    <main>
-        
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1643.6594490062635!2d174.07912900823695!3d-35.27065484412012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDE2JzE0LjQiUyAxNzTCsDA0JzQ4LjciRQ!5e1!3m2!1sen!2snz!4v1555893557172!5m2!1sen!2snz" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      
-      <p>
-            This is the contact page.
-            it will have contact details in it!
-            
-        </p>
-                            
-      
-                            
+    .contact-table th{
+    width: 25%;
+    padding-left: 0;
+    
+}
+    td, tbody th {
+      /*border-bottom: 1px solid black;*/
+      padding: 0%;
+      padding-bottom: 1%;
+      padding-top: 1%;
+      margin: 0%;
+    }
+
+    th {
+      text-align: left;
+    }
+
+    th,
+    td {
+      vertical-align: top;
+    }
+
+    /*
+    .contact-table {
+      background-color: rgb(255, 115, 115);
+      border: none;
+      padding: 20px;
+      font-size: 30px;
+      text-align: left;
+      overflow: hidden;
+    }*/
+
+    
+  </style>
+
+
+
+</head>
+
+
+<body>
+
+
+  <!-- Here is our main header that is used across all the pages of our website -->
+
+
+  <header class="header">
+
+
+    <h1>The Haukai Restaurant</h1>
+
+
+  </header>
+
+
+  <!-- Here is our navigation menu used across most pages of our website -->
+
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="hours.html">Open Times</a>
+    <a href="reservation.html">Reservations</a>
+    <a href="menu.html">View Menus</a>
+    <a class="active" href="contact.html">Contact Us</a>
+
+  </nav>
+
+
+  <!-- Here is our page's main content -->
+
+
+  <main>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1939.7973548418245!2d174.0912578607728!3d-35.28137840387748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0bbad04568cfd9%3A0xe8d79334df1c698d!2s69+Marsden+Rd%2C+Paihia+0200!5e1!3m2!1sen!2snz!4v1555894214299!5m2!1sen!2snz"
+      width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <h2>Contact Us</h2>
+
+    <table class="contact-table">
+      <tbody>
+        <tr>
+          <th scope="row">Phone</th>
+          <td>Call (+64 9) <a href="tel: 0064 9 XXX 1234">XXX 1234</a> - During business hours</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Mobile</th>
+          <td>Text <a href="sms:021 XXX 4321">021 XXX 4321</a> - 24 hours a day, 7 days a week</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Email</th>
+          <td>Email <a href="mailto:thehuakai@gmail.com">thehuakai@gmail.com</a></td>
+        </tr>
+
+        <tr>
+          <th scope="row">Street Address</th>
+          <td>
+            <b>The Haukai,</b> <br>
+            69 Marsden Road,<br>
+            Paihia, 0200,<br>
+            New Zealand
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+
     <!-- And here is our main footer that is used across all the pages of our website -->
-                        
-                            
+
+
     <footer class="footer">
-                        
-                            
+
+
       <p>© Copyright 2019 by The Haukai Restaurant. All rights reversed.</p>
       <p><a href="privacy.html" class="topnav">Privercy Statement</a></p>
-                        
-                            
+
+
     </footer>
-                        
-                            
-  </body>
-                        
-                            
+
+
+</body>
+
+
 </html>
