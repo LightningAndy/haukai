@@ -1,110 +1,139 @@
 <!DOCTYPE html>
-                        
-                            
+
+
 <html>
-                        
-                            
-  <head>
-                        
-                            
-    <meta charset="utf-8">
-                        
-                            
-    <title>The Haukai Restaurant</title>
-                        
-                            
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet 2" href="styles/nav-styles.css">                 
-                            
-  </head>
-                        
-                            
-  <body>
-                        
-                            
-    <!-- Here is our main header that is used across all the pages of our website -->
-                        
-                            
-    <header class="header">
-                        
-                            
-      <h1>The Haukai Restaurant</h1>
-                        
-                            
-    </header>
-                        
-                            
-    <!-- Here is our navigation menu used across most pages of our website -->
-                        
-                            
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="hours.html">Open Times</a>
-        <a class="active" href="reservation.html">Reservations</a>
-        <a href="menu.html">View Menus</a>
-        <a href="contact.html">Contact Us</a>
-    
-      </nav>
-                        
-                            
-    <!-- Here is our page's main content -->
-                        
-                            
-    <main>
-                <p>this page contains a reservation form!</p>        
-                            
+
+
+<head>
+
+
+  <meta charset="utf-8">
+
+
+  <title>The Haukai Restaurant</title>
+
+
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet 2" href="styles/nav-styles.css">
+
+</head>
+
+
+<body>
+
+
+  <!-- Here is our main header that is used across all the pages of our website -->
+
+
+  <header class="header">
+
+
+    <h1>The Haukai Restaurant</h1>
+
+
+  </header>
+
+
+  <!-- Here is our navigation menu used across most pages of our website -->
+
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="hours.html">Open Times</a>
+    <a class="active" href="reservation.html">Reservations</a>
+    <a href="menu.html">View Menus</a>
+    <a href="contact.html">Contact Us</a>
+
+  </nav>
+
+
+  <!-- Here is our page's main content -->
+
+
+  <main>
+    <p>this page contains a reservation form!</p>
+    <form action="https://formspree.io/thehaukai@gmail.com" method="post">
       <div class="row">
-                        
-                            
+
+
         <div class="column">
-                        
-                            
-          <h2>Column 1</h2>
-                        
-                            
-          <p>Paragraph 1.</p>
-                        
-                            
-          <p>Paragraph 2.</p>
-                        
-                            
+
+
+          <fieldset class="personal">
+            <input type="text" name="name" value="Ben Smith">
+            <br>
+            <input type="text" name="phone" value="027 XXX XXXX">
+            <br>
+            <input type="text" name="email" value="example@example.com">
+
+          </fieldset>
+
+
         </div>
-                        
-                            
+
+
         <div class="column">
-                        
-                            
-          <h2>Column 2</h2>
-                        
-                            
-          <p>Paragraph 1.</p>
-                        
-                            
-          <p>Paragraph 2.</p>
-                        
-                            
+
+
+          <fieldset class="date">
+            <input type="text" name="Day" value="Day">
+
+            <input type="text" name="Month" value="Month">
+
+            <input type="text" name="Year" value="Year">
+
+          </fieldset>
+          <fieldset class="time">
+              <input type="radio" name="time" value="5PM"> 5PM - 7PM<br>
+
+              <input type="radio" name="time" value="6PM"> 6PM - 8PM<br>
+
+              <input type="radio" name="time" value="7PM"> 7PM - 9PM<br>
+
+              <input type="radio" name="time" value="8PM"> 8PM - 10PM<br>
+
+          </fieldset>
+          <div class="row">
+            <div class="column">
+              <fieldset class="">
+                <input type="text" name="Day" value="Day">
+
+                <input type="text" name="Month" value="Month">
+
+                <input type="text" name="Year" value="Year">
+
+              </fieldset>
+
+            </div>
+
+          </div>
         </div>
-                        
-                            
+
+
       </div>
-                        
-                            
-    </main>
-                        
-                            
-    <!-- And here is our main footer that is used across all the pages of our website -->
-                        
-                            
-    <footer class="footer">
-                        
-                            
-            <p>© Copyright 2019 by The Haukai Restaurant. All rights reversed.</p>
-            <p><a href="privacy.html" class="topnav">Privacy Statement</a></p>        
-                            
-    </footer>
-                        
-                            
-  </body>
-                        
-                            
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+
+   
+
+    
+  </main>
+
+
+  <!-- And here is our main footer that is used across all the pages of our website -->
+
+
+  <footer class="footer">
+
+
+    <p>© Copyright 2019 by The Haukai Restaurant. All rights reversed.</p>
+    <p><a href="privacy.html" class="topnav">Privacy Statement</a></p>
+
+  </footer>
+
+
+</body>
+
+
 </html>
