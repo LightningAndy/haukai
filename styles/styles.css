@@ -47,7 +47,7 @@ fieldset{
 .booking input {
     display: block;
     overflow: auto;
-     width: 100%; /* three equal-width links */
+    width: 100%; /* three equal-width links */
     text-align: center; /* If you want the text to be centered */
     margin: auto;
 
@@ -57,8 +57,6 @@ fieldset{
     display: block;
     overflow: auto;
     width: 100%; /* three equal-width links */
-
-
   }
 
 
