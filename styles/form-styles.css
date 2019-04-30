@@ -3,36 +3,44 @@
 
 
 
-.navbar {
-    width: 100%;
+.form {
+    width: 80%;
     background-color: rgb(184, 184, 184);
     overflow: auto;
   }
   
-  /* Navigation links */
-  .navbar a {
+  .personal input {
     float: left;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    width: 20%; /* Five equal-width links */
+    font-size: 15px;
+    width: 33.333%; /* Three equal-width links */
+    text-align: center; /* If you want the text to be centered */
+  }
+
+.date select {
+    float: left;
+    font-size: 15px;
+    width: 25%; /* Three equal-width links */
+    text-align: center; /* If you want the text to be centered */ If you want the text to be centered */
+}
+
+  .groupdetails input{
+    float: left;
+    font-size: 15px;
+    width: 50%; /* Three equal-width links */
     text-align: center; /* If you want the text to be centered */
   }
   
-  /* Add a background color on mouse-over */
-  .navbar a:hover {
-    background-color: rgb(104, 104, 104);
+  .buttons input {
+    float: left;
+    font-size: 15px;
+    width: 50%; /* Three equal-width links */
+    text-align: center; /* If you want the text to be centered */
   }
-  
-  /* Style the current/active link */
-  .navbar a.active {
-    background-color: rgb(70, 187, 255);
-  }
+
   
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
   @media screen and (max-width: 500px) {
-    .navbar a {
+    .form, .personal input, .date select, .groupdetails input, .buttons input{
       float: none;
       display: block;
       width: 100%;
