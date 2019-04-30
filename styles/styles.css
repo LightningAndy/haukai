@@ -7,20 +7,15 @@
 
  /* Set the size of the body */
 
-
-
  body {
      width: 80%;
  }
 
  @media screen and (max-width: 500px) {
-    body {
-        width: 100%;
-
-    }
+     body {
+         width: 100%;
+     }
  }
-
-
 
  /* Style the header */
 
@@ -34,35 +29,6 @@
 
 
 
- .booking {
-    background-color: rgb(184, 184, 184);
-  }
-
-fieldset{
-    width: auto;
-    padding: 3px;
-}
-
-
-.booking input {
-    display: block;
-    overflow: auto;
-    width: 100%; /* three equal-width links */
-    text-align: center; /* If you want the text to be centered */
-    margin: auto;
-
-
-  }
-  .booking select {
-    display: block;
-    overflow: auto;
-    width: 100%; /* three equal-width links */
-  }
-
-
-
-
-
  .column1 {
      float: left;
      width: auto;
@@ -71,12 +37,11 @@ fieldset{
  }
 
  .column2 {
-    float: left;
-    width: auto;
-    padding: 15px;
-    background-color: rgb(255, 52, 52);
-}
-
+     float: left;
+     width: auto;
+     padding: 15px;
+     background-color: rgb(255, 52, 52);
+ }
 
  /* Clear floats after the columns */
 
@@ -91,5 +56,4 @@ fieldset{
      text-align: center;
      padding: 8px;
      border-top: 1px solid black;
-     
  }
