@@ -32,12 +32,20 @@
 
  /* Create two equal columns that float next to each other */
 
- .column {
+ .column1 {
      float: left;
      width: auto;
      padding: 15px;
      background-color: yellow;
  }
+
+ .column2 {
+    float: left;
+    width: auto;
+    padding: 15px;
+    background-color: rgb(255, 52, 52);
+}
+
 
  /* Clear floats after the columns */
 
