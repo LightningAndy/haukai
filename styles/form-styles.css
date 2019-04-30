@@ -1,7 +1,7 @@
 /* Style the navigation menu */
 
 .form {
-    width: 80%;
+    width: 500px;
     background-color: rgb(184, 184, 184);
     overflow: auto;
 }
@@ -28,7 +28,7 @@
 .groupdetails input {
     float: left;
     font-size: 15px;
-    width: 50%;
+    width: 33.333%;
     /* Three equal-width links */
     text-align: center;
     /* If you want the text to be centered */

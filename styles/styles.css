@@ -27,7 +27,7 @@
 
  /* Create two equal columns that float next to each other */
 
-
+p{text-align: center;}
 
  .column1 {
      float: left;
