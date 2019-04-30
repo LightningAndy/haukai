@@ -1,50 +1,56 @@
 /* Style the navigation menu */
 
-
-
-
 .form {
     width: 80%;
     background-color: rgb(184, 184, 184);
     overflow: auto;
-  }
-  
-  .personal input {
+}
+
+.personal input {
     float: left;
     font-size: 15px;
-    width: 33.333%; /* Three equal-width links */
-    text-align: center; /* If you want the text to be centered */
-  }
+    width: 33.333%;
+    /* Three equal-width links */
+    text-align: center;
+    /* If you want the text to be centered */
+}
 
 .date select {
     float: left;
     font-size: 15px;
-    width: 25%; /* Three equal-width links */
-    text-align: center; /* If you want the text to be centered */ If you want the text to be centered */
+    width: 25%;
+    /* Three equal-width links */
+    text-align: center;
+    /* If you want the text to be centered */
+    If you want the text to be centered */
 }
 
-  .groupdetails input{
+.groupdetails input {
     float: left;
     font-size: 15px;
-    width: 50%; /* Three equal-width links */
-    text-align: center; /* If you want the text to be centered */
-  }
-  
-  .buttons input {
-    float: left;
-    font-size: 15px;
-    width: 50%; /* Three equal-width links */
-    text-align: center; /* If you want the text to be centered */
-  }
+    width: 50%;
+    /* Three equal-width links */
+    text-align: center;
+    /* If you want the text to be centered */
+}
 
-  
-  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-  @media screen and (max-width: 500px) {
-    .form, .personal input, .date select, .groupdetails input, .buttons input{
-      float: none;
-      display: block;
-      width: 100%;
-      text-align: center; /* If you want the text to be left-aligned on small screens */
+.buttons input {
+    float: left;
+    font-size: 15px;
+    width: 50%;
+    /* Three equal-width links */
+    text-align: center;
+    /* If you want the text to be centered */
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+
+@media screen and (max-width: 500px) {
+    .form, .personal input, .date select, .groupdetails input, .buttons input {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        /* If you want the text to be left-aligned on small screens */
     }
-  }
-  
+}
