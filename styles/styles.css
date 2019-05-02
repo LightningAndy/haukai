@@ -8,13 +8,14 @@
  /* Set the size of the body */
 
  body {
-     width: 100%;
+     width: 90%;
  }
 
  @media screen and (max-width: 500px) {
      body {
          width: 100%;
      }
+ 
  }
 
  /* Style the header */
@@ -27,8 +28,12 @@
 
  /* Create two equal columns that float next to each other */
 
-p{text-align: center;}
-
+ img, object{
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    border: 1px solid black;
+ }
  .column1 {
      float: left;
      width: auto;
