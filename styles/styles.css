@@ -15,10 +15,6 @@
      body {
          width: 100%;
      }
-     img{
-
-        border: 1px solid red;
-     }
  
  }
 
@@ -34,8 +30,8 @@
 
  img, object{
     display: block;
-    max-height: 90%;
-    max-width: 90%;
+    max-height: 100%;
+    max-width: 100%;
     border: 1px solid black;
  }
  .column1 {
