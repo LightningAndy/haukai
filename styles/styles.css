@@ -1,4 +1,7 @@
  /* Universal box sizing */
+ html {
+    overflow-y: scroll;
+  }
 
  * {
      box-sizing: border-box;
@@ -8,17 +11,13 @@
  /* Set the size of the body */
 
  body {
+     max-width: 960px;
      width: 90%;
  }
 
  @media screen and (max-width: 500px) {
      body {
          width: 100%;
-     }
-     img {
-         height: 100%;
-         width: 100%;
-         border: 4px solid black;
      }
  }
 
@@ -30,35 +29,23 @@
      padding: 20px;
  }
 
- /* Create two equal columns that float next to each other */
+ /* style the body */
+
+ h2, h3, h4 {
+     text-align: center;
+     padding-top: 5px;
+ }
+
+ div {
+     text-align: center;
+     max-width: 90%;
+ }
 
  img, object {
      display: block;
      max-height: 100%;
      max-width: 100%;
-     border: 1px solid red;
- }
-
- .column1 {
-     float: left;
-     width: auto;
-     padding: 15px;
-     background-color: yellow;
- }
-
- .column2 {
-     float: left;
-     width: auto;
-     padding: 15px;
-     background-color: rgb(255, 52, 52);
- }
-
- /* Clear floats after the columns */
-
- .row:after {
-     content: "";
-     display: table;
-     clear: both;
+     border: 1px solid black;
  }
 
  .footer {
