@@ -14,8 +14,9 @@
 
  body {
      max-width: 960px;
-     width: 90%;
+    width: 90%;
  }
+ /* Set the size of the body on a mobile or under 500px */
 
  @media screen and (max-width: 500px) {
      body {
@@ -26,9 +27,9 @@
  /* Style the header */
 
  .header {
-     background-color: rgb(64, 194, 64);
+     background-color:whitesmoke;
      text-align: center;
-     padding: 20px;
+     padding: 30px;
  }
 
  /* style the body */
@@ -54,8 +55,9 @@
  }
 
  .footer {
-     background-color: rgb(0, 225, 255);
+     background-color: whitesmoke;
      text-align: center;
      padding: 8px;
-     border-top: 1px solid black;
+     border-top: 1px solid grey;
+
  }

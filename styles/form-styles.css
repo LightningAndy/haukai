@@ -19,7 +19,7 @@
     float: left;
     font-size: 15px;
     width: 25%;
-    /* Three equal-width links */
+    /* four equal-width boxes */
     text-align: center;
     /* If you want the text to be centered */
     If you want the text to be centered */
@@ -38,7 +38,7 @@
     float: left;
     font-size: 15px;
     width: 50%;
-    /* Three equal-width links */
+    /* two equal-width buttons */
     text-align: center;
     /* If you want the text to be centered */
 }
@@ -51,6 +51,6 @@
         display: block;
         width: 100%;
         text-align: center;
-        /* If you want the text to be left-aligned on small screens */
+        /* If you want the text to be centered on small screens */
     }
 }
