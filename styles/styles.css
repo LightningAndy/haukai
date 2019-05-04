@@ -1,5 +1,6 @@
  /* Universal box sizing */
 
+  /* Addes a scroll bar, only used if necessary*/
  html {
      overflow-y: scroll;
  }
