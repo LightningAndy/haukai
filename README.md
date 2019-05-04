@@ -31,3 +31,11 @@ some changes include:
  - when yhe page is resized by the user, all items ont he page scale. this was doen by using % not px measurments in relation to the page width. 
  - there is not need to scroll hoizontally. All aspects of the web page can be seen by scrolling vertically, and it adjusts its size to fit on a miobile devise vertically also. 
  - no need to pinch or zoom any font for them to be seen oin mobile. 
+
+Question 2D:
+
+HTTP caching imporves website performance only if the website has previously been visited. this allows for the storage of larger items, such as video or images to be stored more locally, speeds up retreval, and therfore and increase performance time. 
+
+Contect delivery networks hosted by large multinational corperations will allow for the speeding up of the internet, and the responsiveness of sites. this can be done by storing static resources on fast laoding servers all over the will allow for the server lag and higher speeds. These are now ofter SSD loaded servers, provding faster speeds then traditional HHD storage. 
+
+both HTTP caching and contect delivery networks will increase network speed and response times!
