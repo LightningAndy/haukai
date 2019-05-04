@@ -20,6 +20,13 @@
   <style type="text/css">
 
 
+.mySlides {
+  display:none;
+}
+body, div {
+  width: 100%;
+  max-width: 960px;
+}
 
   
   </style>
@@ -60,10 +67,29 @@
 
 
   <main>
-
-<img src="images/hotel front.jpg" alt="The front of the Haukai Restaurant" />
-    
-
+      <div class="w3-content w3-display-container">
+          <img class="mySlides" src="images/inside01.jpeg" style="width:100%" alt="The front of the Haukai Restaurant">
+          <img class="mySlides" src="images/inside02.jpeg" style="width:100%" alt="The front of the Haukai Restaurant">
+          <img class="mySlides" src="images/inside03.jpeg" style="width:100%" alt="The front of the Haukai Restaurant">
+          <img class="mySlides" src="images/inside04.jpeg" style="width:100%" alt="The front of the Haukai Restaurant">
+        </div>
+        
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
 
   </main>
 
