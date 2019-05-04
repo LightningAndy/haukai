@@ -1,6 +1,7 @@
  /* Universal box sizing */
 
-  /* Addes a scroll bar, only used if necessary*/
+ /* Addes a scroll bar, only used if necessary*/
+
  html {
      overflow-y: scroll;
  }
@@ -14,8 +15,9 @@
 
  body {
      max-width: 960px;
-    width: 90%;
+     width: 90%;
  }
+
  /* Set the size of the body on a mobile or under 500px */
 
  @media screen and (max-width: 500px) {
@@ -27,7 +29,8 @@
  /* Style the header */
 
  .header {
-     background-color:whitesmoke;
+     background-color: whitesmoke;
+     background-image: linear-gradient(whitesmoke, white);
      text-align: center;
      padding: 30px;
  }
@@ -55,9 +58,10 @@
  }
 
  .footer {
+     height: 100px;
      background-color: whitesmoke;
+     background-image: linear-gradient(white, whitesmoke);
      text-align: center;
      padding: 8px;
      border-top: 1px solid grey;
-
  }
