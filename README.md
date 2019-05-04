@@ -11,3 +11,5 @@ simple colour has been used. for links (other then then navigation tabs) these h
 The form has been created, using its own style sheet. unforuntitly i did not see the form requirments - use google forms - this form uses standard html input, and can be used on any devise. 
 
 all links can be accessed using the TAB and ENTER keys. There is no need to use a mouse. 
+
+using the correct semantic HTML elements are sometimes better then using ARIA, especially with HTML 5
