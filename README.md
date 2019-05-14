@@ -10,7 +10,7 @@ Colour chosen is minimalistic and contrasting. this makes it simple to read whil
 
 simple colour has been used. for links (other then then navigation tabs) these have been left as standard "hyperlink blue" to allow familiarity to the site, and where these links can be found. 
 
-The form has been created, using its own style sheet. unforuntitly i did not see the form requirments - use google forms - this form uses standard html input, and can be used on any devise. 
+The form has been created, using its own style sheet. unforuntitly i did not see the form requirments - use google forms - this form uses standard html input, and can be used on any devise. It uterlises https://formspree.io/ to process the information to thehaukai@gmail.com where bookings can be added to the calender if required.   
 
 all links can be accessed using the TAB and ENTER keys. There is no need to use a mouse. 
 
@@ -21,7 +21,7 @@ Website Link: https://lightningandy.github.io/haukai/index.html
 
 Question 2B:
 
-This website is viewable on all browsers and mobile devices. fgor any screen under 500px, it will re-format itself to allow the screen to better show all the information on the pages. this done by using the @media function. 
+This website is viewable on all browsers and mobile devices. for any screen under 500px, it will re-format itself to allow the screen to better show all the information on the pages. this done by using the @media function. 
 
 some changes include: 
  - the navigation menu goes from horizaontal alingment to vertical aligment
@@ -31,6 +31,10 @@ some changes include:
  - when yhe page is resized by the user, all items ont he page scale. this was doen by using % not px measurments in relation to the page width. 
  - there is not need to scroll hoizontally. All aspects of the web page can be seen by scrolling vertically, and it adjusts its size to fit on a miobile devise vertically also. 
  - no need to pinch or zoom any font for them to be seen oin mobile. 
+
+Question 2C:
+ - There is no 2G setting on my version of google chrome, and i was unable to find an extension that would be added to it. You will see in the list of screen shot a Slow 3G version, which was the most limiting one i was able to test the site on. 
+ - i also chose not to have pages minified, as the only pages i could find on google removed all of my comments from pages, meaning i was left with no explination of what does what. I understand that this is one of the purposes of a minifed code, however it does not make it easy to work with as an inexperienced programmer/code writer.  
 
 Question 2D:
 
