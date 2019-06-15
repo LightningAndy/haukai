@@ -1,0 +1,43 @@
+    .w3-font1 {
+        font-family: 'chakra petch', serif;
+    }
+    .w3-theme-gradient1 {
+        color: #000 !important;
+        background: -webkit-linear-gradient(top, grey 0%, white 100%)
+    }
+    .w3-theme-gradient1 {
+        color: #000 !important;
+        background: -moz-linear-gradient(top, grey 0%, white 100%)
+    }
+    .w3-theme-gradient1 {
+        color: #000 !important;
+        background: -o-linear-gradient(top, grey 0%, white 100%)
+    }
+    .w3-theme-gradient1 {
+        color: #000 !important;
+        background: -ms-linear-gradient(top, grey 0%, white 100%)
+    }
+    .w3-theme-gradient1 {
+        color: #000 !important;
+        background: linear-gradient(top, grey 0%, white 100%)
+    }
+    .w3-theme-gradient2 {
+        color: #000 !important;
+        background: -webkit-linear-gradient(top ,white 0%,  grey 100%)
+    }
+    .w3-theme-gradient2 {
+        color: #000 !important;
+        background: -moz-linear-gradient(top ,white 0%,  grey 100%)
+    }
+    .w3-theme-gradient2 {
+        color: #000 !important;
+        background: -o-linear-gradient(top ,white 0%,  grey 100%)
+    }
+    .w3-theme-gradient2 {
+        color: #000 !important;
+        background: -ms-linear-gradient(top ,white 0%,  grey 100%)
+    }
+    .w3-theme-gradient2 {
+        color: #000 !important;
+        background: linear-gradient(top ,white 0%,  grey 100%)
+    }
