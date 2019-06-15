@@ -1,94 +1,72 @@
 <!DOCTYPE html>
-
-
 <html>
+<title>The Haukai Restaurant</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Chakra+Petch'>
+<link rel="stylesheet" href="styles/style.css">
 
 
-<head>
+<body class="w3-content" style="max-width:960px">
 
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-  <title>The Haukai Restaurant</title>
-
-  <link rel="stylesheet" href="styles/styles.css">
-  <link rel="stylesheet 2" href="styles/nav-styles.css">
-  <link rel="stylesheet 3" href="styles/form-styles.css">
-  <link href='https://fonts.googleapis.com/css?family=Chakra Petch' rel='stylesheet'>
-  
-  <style type="text/css">
-    body {
-
-      font-family: 'chakra Petch';
-      font-size: 22px;
-    }
-  </style>
-
-  <Script>
-    function target_popup(form) {
-      window.open('', 'formpopup', 'width=400,height=400,resizeable,scrollbars');
-      form.target = 'formpopup';
-    }</Script>
-
-
-</head>
-
-
-<body>
-
-
-  <!-- Here is our main header that is used across all the pages of our website -->
-
-
-  <header class="header">
-
-
-    <h1>The Haukai Restaurant</h1>
-
-
+  <!-- Header -->
+  <header class="w3-container w3-padding-32 w3-center w3-theme-gradient1">
+    <h1 class="w3-font1">The Haukai Restaurant</h1>
   </header>
 
-
-  <!-- Here is our navigation menu used across most pages of our website -->
-
-
-  <nav class="navbar">
-    <a href="index.html">Home</a>
-    <a href="hours.html">Open Times</a>
-    <a class="active" href="reservation.html">Reservations</a>
-    <a href="menu.html">View Menus</a>
-    <a href="contact.html">Contact Us</a>
-
+  <!-- Navigation -->
+  <nav class="w3-bar w3-font1 w3-white">
+    <a href="index.html"
+      class="w3-button w3-mobile w3-bar-item w3-hover-white w3-bottombar w3-border-white w3-hover-border-grey"
+      style="width: 20%">Home</a>
+    <a href="hours.html"
+      class="w3-button w3-mobile w3-bar-item w3-hover-white w3-bottombar w3-border-white w3-hover-border-grey"
+      style="width: 20%">Open Times</a>
+    <a href="reservation.html"
+      class="w3-button w3-mobile w3-bar-item w3-hover-white w3-bottombar w3-border-white w3-hover-border-grey w3-border-light-grey"
+      style="width: 20%">Reservations</a>
+    <a href="menu.html"
+      class="w3-button w3-mobile w3-bar-item w3-hover-white w3-bottombar w3-border-white w3-hover-border-grey"
+      style="width: 20%">View Menus</a>
+    <a href="contact.html"
+      class="w3-button w3-mobile w3-bar-item w3-hover-white w3-bottombar w3-border-white w3-hover-border-grey"
+      style="width: 20%">Contact Us</a>
   </nav>
 
-
-  <!-- Here is our page's main content -->
-
-
-  <main>
-    <h2>Online Reservation Form</h2>
-    <div>
-      Please use the form below to book a reservation with us. We will be in contact if your booking time selected is
-      unavalable.<br>
-      Regards, <br>
-      The Haukai Restaurant Team. <br>
+  <!-- Main Page Content -->
+  <div class="w3-content w3-center w3-font1" style="max-width:600px" id="opening hours">
+    <h2 class="w3-wide w3-font1">Online Reservation Form</h2>
+    <p class="w3-center">
+      Please use the form below to book a reservation with us. We will be in contact if your booking time you
+      select is unavalable.<br>
       <br>
-    </div>
+      Regards, <br>
+      The Haukai Restaurant Team. <br></p>
+  </div>
 
-    <div class="form">
-      <form class="booking" action="https://formspree.io/thehaukai@gmail.com" method="post">
+  <!-- Form on the page-->
 
-        <fieldset class="personal">
-          <input type="text" name="Name" placeholder="Name of Customer" required>
-          <input type="text" name="Phone" placeholder="Phone Number" required>
-          <input type="text" name="E-mail" placeholder="Email Address" required>
-        </fieldset>
 
-        <fieldset class="date">
-          <select name="Day" value="Day" required>
-            <option value="" disabledselected>DAY</option>
+  <div class="form w3-content w3-center w3-font1" style="max-width: 80%;">
+    <form class="booking " action="https://formspree.io/thehaukai@gmail.com" method="post">
+      <div class="w3-row-padding">
+        <div class="w3-third">
+          <input class="w3-input w3-border" type="text" name="Name" placeholder="Name Of Customer" required>
+        </div>
+        <div class="w3-third">
+          <input class="w3-input w3-border" type="text" name="Phone Number" placeholder="Phone Number" required>
+        </div>
+        <div class="w3-third">
+          <input class="w3-input w3-border" type="text" name="Email Address" placeholder="Email Address" required>
+        </div>
+      </div>
+      <br>
+      <div class="w3-row-padding">
+        <div class="w3-quarter">
+          <select class="w3-select" name="Day" required>
+            <option value="" disabled selected>DAY</option>
             <option value="1">01</option>
             <option value="2">02</option>
             <option value="3">03</option>
@@ -121,8 +99,10 @@
             <option value="30">30</option>
             <option value="31">31</option>
           </select>
-          <select name="Month" value="Month" required>
-            <option value="" disabledselected>MONTH</option>
+        </div>
+        <div class="w3-quarter">
+          <select class="w3-select" name="Month" required>
+            <option value="" disabled selected>MONTH</option>
             <option value="Januaray">Januaray</option>
             <option value="Febuaray">Febuaray</option>
             <option value="March">March</option>
@@ -136,8 +116,10 @@
             <option value="November">November</option>
             <option value="December">December</option>
           </select>
-          <select name="Year" value="Year" required>
-            <option value="" disabledselected>YEAR</option>
+        </div>
+        <div class="w3-quarter">
+          <select class="w3-select" name="Year" required>
+            <option value="" disabled selected>YEAR</option>
             <option value="2018">2018</option>
             <option value="2019">2019</option>
             <option value="2020">2020</option>
@@ -147,44 +129,54 @@
             <option value="2024">2024</option>
             <option value="2025">2025</option>
           </select>
-          <select name="Time" value="Time" required>
-            <option value="" disabledselected>TIME</option>
+        </div>
+        <div class="w3-quarter">
+          <select class="w3-select" name="Time" Required>
+            <option value="" disabled selected>TIME</option>
             <option value="5PM - 7PM">5PM - 7PM</option>
             <option value="6PM - 8PM">6PM - 8PM</option>
             <option value="7PM - 9PM">7PM - 9PM</option>
             <option value="8PM - 10PM">8PM - 10PM</option>
             <option value="9PM - 11PM">9PM - 11PM</option>
           </select>
-        </fieldset>
-
-        <fieldset class="groupdetails">
-          <input type="text" name="Group Size" placeholder="Amount Of People" required>
-          <input type="text" name="Diet" placeholder="Diet Requirements?">
-          <input type="text" name="Other Comments" placeholder="Other Comments?">
-        </fieldset>
-
-        <fieldset class="buttons">
-          <input type="submit" value="Submit" style='color: green'>
-          <input type="reset" value="Reset" style="color: red">
-        </fieldset>
-      </form>
+        </div>
+      </div>
+      <br>
+      <div class="w3-row-padding">
+        <div class="w3-third">
+          <input class="w3-input w3-border " type="text" name="Number of People" placeholder="Amount Of People"
+            required>
+        </div>
+        <div class="w3-third">
+          <input class="w3-input w3-border" type="text" name="Special Diet" placeholder="Diet Requirements">
+        </div>
+        <div class="w3-third">
+          <input class="w3-input w3-border" type="text" name="Comments" placeholder="Other Comments">
+        </div>
+      </div>
+      <br>
+      <div class="w3-row-padding">
+        <div class="w3-half">
+          <button type="submit" value="Submit" style="color: green; width:100%"">Submit</button>
+                </div>
+                <div class=" w3-half">
+            <button type="reset" value="Reset" style="color: red; width:100%"">Reset</button>
+                </div>
+            </div>
+        </form>
     </div>
 
-    <br>
-  </main>
+    <!-- Footer -->
+    <footer class=" w3-container w3-padding-32 w3-center w3-theme-gradient2">
+              <p class="w3-center w3-font1">Copyright 2019 by The Haukai Restaurant. All rights reversed.</p>
+              <p class="w3-center w3-font1"><a href="privacy.html" class="topnav">Privacy Statement</a></p>
+              </footer>
 
-
-  <!-- And here is our main footer that is used across all the pages of our website -->
-
-
-  <footer class="footer">
-
-
-    <p>© Copyright 2019 by The Haukai Restaurant. All rights reversed.</p>
-    <p><a href="privacy.html" class="topnav">Privacy Statement</a></p>
-
-  </footer>
-
+              <script>
+                function target_popup(form) {
+                  window.open('', 'formpopup', 'width=400,height=400,resizeable,scrollbars');
+                  form.target = 'formpopup';
+                }</script>
 
 </body>
 
